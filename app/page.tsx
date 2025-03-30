@@ -23,6 +23,7 @@ export default function Home() {
       await callChg(`${countryCode}${phoneNumber}`);
 
     } catch (error) {
+      console.log(error);
       setStatus({
         message: "An error occurred. Please try again.",
         type: "error"
