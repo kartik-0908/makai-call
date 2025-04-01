@@ -15,7 +15,7 @@ export async function callChg(phoneNumber: string) {
         "amd": false,
         "answered_by_enabled": false,
         "noise_cancellation": false,
-        "interruption_threshold": 100,
+        "interruption_threshold": 300,
         "block_interruptions": false,
         "max_duration": 12,
         "model": "base",
