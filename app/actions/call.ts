@@ -10,7 +10,7 @@ export async function callChg(phoneNumber: string) {
     const data = {
         "phone_number": phoneNumber,
         "voice": "June",
-        "wait_for_greeting": false,
+        "wait_for_greeting": true,
         "record": true,
         "amd": false,
         "answered_by_enabled": false,
