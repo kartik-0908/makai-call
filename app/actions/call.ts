@@ -8,7 +8,7 @@ export async function callChg(phoneNumber: string) {
 
     };
     const data = {
-        "phone_number": "+916395857349",
+        "phone_number": phoneNumber,
         "voice": "June",
         "wait_for_greeting": false,
         "record": true,
